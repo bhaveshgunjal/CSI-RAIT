@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="15dp"
+    app:cardCornerRadius="15dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="70dp"
+    android:paddingRight="70dp"
+
+    android:layout_margin="8dp"
+    android:background="@android:color/holo_blue_bright">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/quizoclock"
+        android:adjustViewBounds="false"
+        android:foreground="#be080707"
+        android:clickable="true"
+
+        android:foregroundTint="#b8000000" />
+
+    <TextView
+        android:id="@+id/imagename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:text="DEMO"
+        android:textSize="30sp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_centerHorizontal="true"
+        android:elevation="20dp" />
+
+</RelativeLayout>
+    </android.support.v7.widget.CardView>

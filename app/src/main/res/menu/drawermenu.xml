@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Techfests"
+        android:id="@+id/techfests"
+        android:icon="@drawable/tool"/>
+
+
+    <item android:title="Workshops"
+        android:id="@+id/workshops"
+        android:icon="@drawable/computer"/>
+
+    <item android:title="Techtalks"
+        android:id="@+id/techtalks"
+        android:icon="@drawable/music"/>
+
+
+
+    <item android:title="Magazines"
+        android:icon="@drawable/reading"
+        android:id="@+id/magazines">
+    </item>
+    <!--<item android:title="Gallery"-->
+        <!--android:icon="@drawable/picture"-->
+        <!--android:id="@+id/gallery">-->
+    <!--</item>-->
+
+
+
+    <group android:title="More"
+
+        android:id="@+id/group_settings_id">
+
+        <item android:title="What's hot?"
+            android:id="@+id/whatshot"
+            android:icon="@android:drawable/star_big_on"/>
+        </group>
+</menu>
+
+
+
